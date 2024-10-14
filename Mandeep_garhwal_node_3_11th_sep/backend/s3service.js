@@ -4,8 +4,8 @@ const uuid = require("uuid").v4
 const {S3Client, PutObjectCommand, DeleteObjectCommand} = require("@aws-sdk/client-s3")
 
 // AWS.config.update({
-//     accessKeyId: "AKIAQNLFCYRRCS6HW6VF",
-//     secretAccessKeyId: "IEtA4et2G5HI3kCxX5rpar3Y1ZxYwfHXy+vpWRrp",
+//     accessKeyId: "...",
+//     secretAccessKeyId: "...",
 //     region: 'ap-south-1'
 // })
 
